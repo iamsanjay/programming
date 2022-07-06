@@ -19,7 +19,7 @@ class Stack:
         self.top -= 1
         return x
     def push(self, x):
-        if self.top == self.size:
+        if self.top == self.size-1:
             raise Exception("Overflow")
         self.top += 1
         self.arr[self.top] = x
