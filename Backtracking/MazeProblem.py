@@ -4,6 +4,8 @@
 Created on Sat Jul  2 18:22:03 2022
 
 @author: sanjaydutt
+
+This problem available at https://practice.geeksforgeeks.org/problems/rat-in-a-maze-problem/1 
 """
 class Stack:
     def __init__(self, size):
